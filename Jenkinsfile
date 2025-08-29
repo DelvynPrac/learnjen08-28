@@ -5,5 +5,6 @@ pipeline {
     stage('Build')    { steps { sh 'echo building' } }
     stage('Test')     { steps { sh 'echo testing' } }
     stage('Package')  { steps { sh 'echo packaging' } }
+    stage('Good')  { steps { sh 'echo good' } }
   }
 }
